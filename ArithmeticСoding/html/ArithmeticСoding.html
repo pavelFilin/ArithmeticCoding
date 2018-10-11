@@ -6,21 +6,43 @@
     <link rel="stylesheet" href="../css/bootstrap-reboot.css">
     <link rel="stylesheet" href="../css/bootstrap-grid.css">
     <link rel="stylesheet" href="../css/bootstrap.css">
-
+    <link rel="stylesheet" href="../css/main.css">
 </head>
 <body>
 <div class="container">
-    <h1>Arithmetic Coding</h1>
-    <textarea class="input-group" placeholder="Введите текст" onchange="findCoding()" id="input"></textarea>
-    <br>
-    <h4>Ответ</h4>
-    <textarea class="input-group" id="output"></textarea>
+    <div class="row text-center justify-content-center" >
+        <div>
+            <h1>Arithmetic Coding</h1>
+        </div>
+    </div>
+    <div class="row text-center justify-content-center" >
+        <div class="col-md-8">
+            <textarea class="input-group" placeholder="Введите текст" onchange="findCoding()" id="input"></textarea>
+        </div>
+    </div>
+
+    <div class="row text-center mt-5 justify-content-center" >
+        <div class="col-md-8">
+            <h4>Ответ</h4>
+        </div>
+    </div>
+    <div class="row text-center justify-content-center" >
+        <div class="col-md-8">
+            <textarea class="input-group" id="output"></textarea>
+        </div>
+    </div>
+    <table class="table my-2" id="resultTable">
+
+    </table>
+
+
 </div>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="../js/bootstrap.js"></script>
 <script src="../js/bootstrap.bundle.js"></script>
 <script src="../js/main.js"></script>
+
 
 </body>
 </html>

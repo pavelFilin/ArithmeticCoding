@@ -1,0 +1,24 @@
+body {
+    background: #fefcea;
+    background: linear-gradient(to top, #48b784, #c0ffda);
+    min-height:100vh
+}
+
+textarea {
+    min-height:20vh
+}
+
+#resultTable {
+    background-color: #fffbf7;
+    border: 1px #1b1e21 solid;
+}
+
+#resultTable {
+    background-color: #fffbf7;
+    border: 1px #1b1e21 solid;
+    width: 100%;
+}
+
+#resultTable td {
+    border: 1px #1b1e21 solid;
+}
